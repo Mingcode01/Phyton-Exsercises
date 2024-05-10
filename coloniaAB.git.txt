@@ -1,0 +1,12 @@
+colA = 4
+colB = 10
+
+contador = 0
+
+while colA < colB:
+  colA = colA * 1.03
+  colB = colB * 1.015
+
+  contador += 1
+
+print(f"{contador}")
